@@ -5,8 +5,7 @@
     margin-right: auto;
     margin-bottom: 20px;
     margin-top: 50px;
-    width: 150px;
-    height: 150px;
+    width: 15%;
     
 }
 
@@ -17,7 +16,7 @@ h1{
     line-height: 36px;
     margin-bottom: 12px;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+   
 }
 
 h1 span{
@@ -36,14 +35,15 @@ h2 {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    font-family: 'Times New Roman', Times, serif;
+
 }
 
 body {
-    background-color: #4f5452
+    background-image: url("/img/Background.jpg")
 }
 
 .projects-item {
+    margin-top: 20px;
     margin-bottom: 10px;
     overflow: hidden;
     position: relative;
@@ -78,9 +78,9 @@ body {
     width: 100%;
     height: 100%;
     pointer-events: none;
-    background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#1DB777));
-    background: -webkit-linear-gradient(top, #000000, #1DB777);
-    background: linear-gradient(to bottom, #000000, #1DB777);
+    background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#9f062d));
+    background: -webkit-linear-gradient(top, #000000, #9f062d);
+    background: linear-gradient(to bottom, #000000, #9f062d);
     opacity: 0;
     -webkit-border-radius: 4px;
     border-radius: 4px;
@@ -119,9 +119,9 @@ body {
 }
 
 .projects-item:hover .projects-item-image:after {
-    background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#1DB777));
-    background: -webkit-linear-gradient(top, #000000, #1DB777);
-    background: linear-gradient(to bottom, #000000, #1DB777);
+    background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#9f062d));
+    background: -webkit-linear-gradient(top, #000000, #9f062d);
+    background: linear-gradient(to bottom, #000000, #9f062d);
     opacity: .85
 }
 
@@ -145,19 +145,62 @@ body {
 
 }
 
+.image{
+    width: 40%;
+
+}
+
 }
 
 .social {
 
     text-align: center;
+    font-size: 1px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-right: 35px;
 
 }
 
-.social .social-icon{
+.social .social-icon .fa-facebook-f{
 
     font-size: 25px;
     color: #fff;
         
+}
+
+.social .social-icon .fa-twitter{
+
+    font-size: 25px;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+        
+}
+
+.social .social-icon .fa-linkedin{
+
+    font-size: 25px;
+    color: #fff;
+        
+}
+
+.social:hover .social-icon:hover .fa-facebook-f:hover{
+
+    color: #a50831;    
+
+}
+
+.social:hover .social-icon:hover .fa-twitter:hover{
+
+    color: #a50831;    
+
+}
+
+.social:hover .social-icon:hover .fa-linkedin:hover{
+
+    color: #a50831;    
+
 }
 
 footer.fix-footer {
@@ -169,5 +212,5 @@ footer.fix-footer {
 .fot-row .col-sm-12>p{
 
     color: white;
-    font-family: 'Times New Roman', Times, serif;
+
 }
