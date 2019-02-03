@@ -4,7 +4,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
-    margin-top: 50px;
+    margin-top: 25px;
     width: 15%;
     
 }
@@ -154,11 +154,10 @@ body {
 
 .social {
 
-    text-align: center;
+    text-align: right;
     font-size: 1px;
-    padding-bottom: 30px;
-    padding-top: 30px;
     margin-right: 35px;
+    margin-bottom: 40px;
 
 }
 
@@ -213,4 +212,45 @@ footer.fix-footer {
 
     color: white;
 
+}
+
+.form-body{
+
+    text-align: center;
+    padding-top: 5px;
+
+}
+
+.form-body .form-labels{
+
+    background-color: transparent;
+    color: white;
+    padding:10px;
+    border: 1px;
+    border-bottom: 1px solid white;
+    
+
+}
+
+.form-body .form-button{
+
+    background: transparent;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+.form-body .form-button:hover{
+
+    background-color: #a50831;
+
+}
+
+.form-body .form-labels::placeholder{
+
+    color: white;
+    
 }
